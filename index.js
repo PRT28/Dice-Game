@@ -9,11 +9,11 @@ document.querySelectorAll("img")[0].setAttribute("src",image1);
 document.querySelectorAll("img")[1].setAttribute("src",image2);
 
 if(n1>n2){
-  alert("Player 1 wins");
+  document.querySelector("h2").innerHTML = "Winner: Player 1 Wins🥳🥳";
 }else if (n1===n2) {
-  alert("Draw");
+  document.querySelector("h2").innerHTML = "DRAW😬😬";
 }else{
-  alert("Player 2 wins");
+  document.querySelector("h2").innerHTML = "Winner: Player 2 Wins🥳🥳";
 }
 
 }
